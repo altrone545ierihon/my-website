@@ -1,0 +1,161 @@
+[index.html](https://github.com/user-attachments/files/23098174/index.html)
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Japan.Special.Motors (JSM)</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      color: #222;
+      background: #f4f4f4;
+    }
+
+    header {
+      background: #1c1c1c;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+
+    nav a {
+      color: white;
+      margin: 0 15px;
+      text-decoration: none;
+    }
+
+    .hero {
+      background: url('/mnt/data/84c0f787-60bc-46d7-9adb-f429ec4beeb4.png') no-repeat center center;
+      background-size: cover;
+      text-align: center;
+      color: black;
+      padding: 100px 20px;
+    }
+
+    .hero h1 {
+      font-size: 48px;
+      margin-bottom: 10px;
+    }
+
+    .hero p {
+      font-size: 20px;
+      margin-bottom: 20px;
+    }
+
+    .hero a {
+      background: #25D366;
+      color: white;
+      padding: 12px 25px;
+      text-decoration: none;
+      font-weight: bold;
+      border-radius: 5px;
+    }
+
+    section {
+      padding: 60px 20px;
+      max-width: 1000px;
+      margin: 0 auto;
+    }
+
+    .services, .why, .contact {
+      background: #fafafa;
+      margin-top: 30px;
+      border-radius: 10px;
+      padding: 30px;
+    }
+
+    .contact {
+      text-align: center;
+    }
+
+    .contact a {
+      display: inline-block;
+      background: #25D366;
+      color: white;
+      padding: 12px 25px;
+      text-decoration: none;
+      font-weight: bold;
+      border-radius: 5px;
+      margin-top: 20px;
+    }
+
+    footer {
+      background: #1c1c1c;
+      color: white;
+      text-align: center;
+      padding: 20px;
+    }
+
+    .gallery {
+      background: #fff;
+      padding: 40px 20px;
+      text-align: center;
+    }
+
+    .gallery-row {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+      margin-top: 20px;
+    }
+
+    .gallery-row img {
+      width: 300px;
+      height: auto;
+      border-radius: 10px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+      transition: transform 0.3s ease;
+    }
+
+    .gallery-row img:hover {
+      transform: scale(1.05);
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Japan.Special.Motors (JSM)</h1>
+    <nav>
+      <a href="#">Главная</a>
+      <a href="#">Услуги</a>
+      <a href="#">Контакты</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h1>25 лет на рынке спецтехники</h1>
+    <p>Мы закупаем и отправляем спецтехнику контейнерами. Надежность и качество — наша гордость.</p>
+    <a href="https://wa.me/07075630888" target="_blank">Связаться по WhatsApp</a>
+  </section>
+
+  <section>
+    <h2>О компании</h2>
+    <p>Компания **Japan.Special.Motors (JSM)** занимается покупкой и поставкой спецтехники из Японии более 25 лет. 
+  </section>
+
+  <section class="gallery">
+
+    <div class="gallery-row">
+      <img src="https://cisoclub.ru/_ipx/f_webp,q_99/wp-content/uploads/2023-07-05_14-27-41-640x382.jpg"Контейнеры 1">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Nagoya_Port_02.jpg/330px-Nagoya_Port_02.jpg"Контейнеры 2">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSvJm0t2CPmiWyX79XQOKMjZhl2-6nusUggTQ&s"Контейнеры 3">
+    </div>
+  </section>
+
+  <section class="contact">
+    <h2>Контактная информация</h2>
+    <p>Для связи с нами, пожалуйста, воспользуйтесь WhatsApp или отправьте письмо на нашу почту:</p>
+    <a href="mailto:info@jsm.com">Написать на почту</a>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Japan.Special.Motors (JSM). Все права защищены.</p>
+  </footer>
+
+</body>
+</html>
